@@ -25,7 +25,6 @@ public class CLI {
      * Metodo que se encarga de correr la aplicacion y muestra el menu
      * Permite agregar carros y mostrar los carros agregados
      */
-
     public static void runApp(){
         Scanner scanner = new Scanner(System.in);
         StockManager stockManager = new StockManager();
