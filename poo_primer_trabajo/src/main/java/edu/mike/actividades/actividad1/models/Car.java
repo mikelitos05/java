@@ -2,12 +2,19 @@ package edu.mike.actividades.actividad1.models;
 
 public class Car {
 
-
+    
     private String modelo;
     private String marca; 
     private String color;
     private int precio;
 
+    /**
+     * Constructor de la clase Car
+     * @param color
+     * @param marca
+     * @param modelo
+     * @param precio
+     */
     public Car(String color, String marca, String modelo, int precio) {
         this.color = color;
         this.marca = marca;
