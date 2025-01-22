@@ -57,7 +57,7 @@ public class CLI {
                     int numCar = 1;
                     if (stockManager.getStock().isEmpty()){
                         System.out.println("===============================");
-                        System.out.println("No hay carros en el stock");
+                        System.out.println("No hay carros en el stock ");
                     }
                     else{
                         for (Car car : stockManager.getStock()){
