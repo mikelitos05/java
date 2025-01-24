@@ -2,6 +2,9 @@ package edu.mike.actividades.actividad2.data;
 
 public class Data {
 
+    /**
+     * Arreglo de nombres
+     */
 
     public static String[] nombres = 
     {
