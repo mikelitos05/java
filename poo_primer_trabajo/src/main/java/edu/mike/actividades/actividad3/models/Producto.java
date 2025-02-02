@@ -29,6 +29,10 @@ public class Producto {
         return descripcion;
     }
 
+    /**
+     * setter de la descripcion
+     * @param descripcion no puede ser vacia
+     */
     public void setDescripcion(String descripcion) {
         if (descripcion.isEmpty()){
             throw new IllegalArgumentException("La descripcion no puede estar vacia");
@@ -42,6 +46,10 @@ public class Producto {
         return codigo;
     }
 
+    /**
+     * setter del codigo
+     * @param codigo no puede ser menor que 0
+     */
     public void setCodigo(int codigo) {
         if (codigo < 0){
             throw new IllegalArgumentException("El codigo no puede ser menor que 0");
@@ -55,6 +63,10 @@ public class Producto {
         return tipo;
     }
 
+    /**
+     * setter del tipo
+     * @param tipo no puede ser vacio
+     */
     public void setTipo(String tipo) {
         if (tipo.isEmpty()){
             throw new IllegalArgumentException("El tipo no puede estar vacio");
@@ -68,6 +80,10 @@ public class Producto {
         return costo;
     }
 
+    /**
+     * setter del costo
+     * @param costo no puede ser menor o igual a 0
+     */
     public void setCosto(Double costo) {
         if (costo <= 0){
             throw new IllegalArgumentException("El costo no puede ser menor o igual a 0");
@@ -81,6 +97,10 @@ public class Producto {
         return impuesto;
     }
 
+    /**
+     * setter del impuesto
+     * @param impuesto no puede ser menor o igual a 0
+     */
     public void setImpuesto(Double impuesto) {
         if (impuesto <= 0){
             throw new IllegalArgumentException("El impuesto no puede ser menor o igual a 0 ");
