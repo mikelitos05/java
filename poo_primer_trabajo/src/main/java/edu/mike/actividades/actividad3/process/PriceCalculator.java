@@ -8,8 +8,8 @@ public class PriceCalculator {
 
     /**
      * 
-     * @param producto
-     * @param precioGanar
+     * @param producto Costo de el prodcuto de el que se quiere saber el precio final
+     * @param precioGanar Cantidad de dinero que se desea ganar
      */
     public PriceCalculator(Producto producto, Double precioGanar){
 
