@@ -6,6 +6,9 @@ public class ProductComparator {
     double precioDiferencia;
 
 
+    /**
+     * Metodo que se encarga de comparar 2 productos
+     */
     public ProductComparator(Producto producto, Producto producto1){
 
         double precioFinal = producto.getCosto() + (producto.getImpuesto()* producto.getCosto());
@@ -17,6 +20,10 @@ public class ProductComparator {
 
     }
 
+    /**
+     * Metodo que se encarga de retornar la diferencia de precio
+     * 
+     */
     public double getPrecioDiferencia(){
         return this.precioDiferencia;
     }
